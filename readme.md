@@ -18,3 +18,11 @@ Nuxt CLI v3.0.0-27468803.23e7afb                                                
 
      🚀  Start development server with `npm run dev` or `yarn dev` or `pnpm run dev
 ```
+
+I'm sticking with YARN for this set up, so:
+`yarn install`
+`yarn dev -o`
+
+## ToDo
+- WindiCSS
+- PWA
