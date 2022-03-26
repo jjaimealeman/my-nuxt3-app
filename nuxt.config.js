@@ -2,17 +2,39 @@ import { defineNuxtConfig } from 'nuxt3'
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
+    // https://nuxtjs.org/docs/features/loading
+    // loading: '@/components/LoadingBar.vue',
+    // loading: {
+    //     color: 'blue',
+    //     height: '5px'
+    // },
+
+    windicss: {
+        config: {
+            attributify: true,
+        },
+    },
+    // css: ['@/assets/fonts.css'],
+    buildModules: [
+        '@nuxtjs/pwa',
+        'nuxt-windicss',
+        'unplugin-icons/nuxt'
+    ],
+    windicss: {
+        analyze: true
+    },
     "assets": "/<rootDir>/assets",
     "public": "/<rootDir>/public",
 
-    meta: {
+    head: {
+        title: 'qwerty',
         meta: [
             // <meta name="viewport" content="width=device-width, initial-scale=1.0">
             { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }
         ],
         script: [
             // <script src="https://myawesome-lib.js"></script>
-            { src: 'https://awesome-lib.js' }
+            // { src: 'https://awesome-lib.js' }
         ],
         link: [
             // <link rel="stylesheet" href="https://myawesome-lib.css">
@@ -20,8 +42,9 @@ export default defineNuxtConfig({
             { rel: 'icon', href: '/favicon.svg', sizes: 'any', type: 'image/svg+xml' }
         ]
     }
+});
 
-})
+
 
 // <meta charset="UTF-8" />
 // <meta http-equiv="X-UA-Compatible" content="IE=edge" />
