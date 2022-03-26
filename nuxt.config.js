@@ -2,6 +2,9 @@ import { defineNuxtConfig } from 'nuxt3'
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
+    mode: "universal",
+    target: "server",
+
     // https://nuxtjs.org/docs/features/loading
     // loading: '@/components/LoadingBar.vue',
     // loading: {
@@ -27,7 +30,10 @@ export default defineNuxtConfig({
     "public": "/<rootDir>/public",
 
     head: {
-        title: 'qwerty',
+        // title: 'qwerty',
+        // htmlAttrs: {
+        //       lang: 'en'
+        //     },
         meta: [
             // <meta name="viewport" content="width=device-width, initial-scale=1.0">
             { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }
@@ -44,7 +50,7 @@ export default defineNuxtConfig({
     }
 });
 
-
+// <html lang="en">
 
 // <meta charset="UTF-8" />
 // <meta http-equiv="X-UA-Compatible" content="IE=edge" />
