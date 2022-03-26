@@ -1,11 +1,24 @@
 <template>
     <TheNav />
     <div class="container mx-auto h-full pt-24 px-4 md:px-8 m-0 text-white antialiased text-xl md:text-2xl lg:text-3xl">
-        <div class="p4">
+        <div class="p-4">
             <NuxtPage/>
         </div>
     </div>
 </template>
+
+
+<script>
+    export default {
+        head() {
+            return {
+                htmlAttrs: {
+                    lang: "en",
+                },
+            };
+        }
+    };
+</script>
 
 
 <style>
