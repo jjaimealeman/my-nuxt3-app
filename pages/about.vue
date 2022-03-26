@@ -24,6 +24,20 @@
     </div>
 </template>
 
+<script>
+    export default {
+        head: {
+            meta: [
+                {
+                    hid: 'description',
+                    name: 'description',
+                    content: 'A Nuxt3 app ... by JJaimeAleman.'
+                }
+            ],
+        }
+    }
+</script>
+
 <script setup>
 
     definePageMeta({

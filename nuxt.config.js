@@ -36,7 +36,9 @@ export default defineNuxtConfig({
         //     },
         meta: [
             // <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }
+            { name: 'viewport', content: 'width=device-width, initial-scale=1.0' },
+            // <meta name="description" content="An optimized TailwindCSS Boilerplate for simple static HTML/CSS/JS websites." />
+            // { name: 'description', content: 'A simple Nuxt3 app ... with PWA? not yet!' }
         ],
         script: [
             // <script src="https://myawesome-lib.js"></script>

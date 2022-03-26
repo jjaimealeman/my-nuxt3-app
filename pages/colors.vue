@@ -9,6 +9,20 @@
     </div>
 </template>
 
+<script>
+    export default {
+        head: {
+            meta: [
+                {
+                    hid: 'description',
+                    name: 'description',
+                    content: 'A Nuxt3 app ... showing WindiCSS colors.'
+                }
+            ],
+        }
+    }
+</script>
+
 <script setup>
     definePageMeta({
         title: 'Colors Page'
