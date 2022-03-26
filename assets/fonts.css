@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Pangea";
+    font-style: normal;
+    font-weight: 400;
+    font-display: optional;
+    src: url("./Pangea-Regular.woff2") format("woff2"),
+        url("./Pangea-Regular.woff") format("woff");
+}
+
+* {
+    font-family: "Pangea";
+}
