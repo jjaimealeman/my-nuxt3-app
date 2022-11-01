@@ -55,3 +55,16 @@ https://github.com/windicss/nuxt-windicss
 
 Installed and enabled PWA module.
 Now I will test with `git push` and Deploy to Netlify for testing.
+
+## Saturday, March 26, 2022 @ 09:26:52 PM
+
+PWA didn't work. Gotta research later and out why.
+
+Now taking this course
+https://explorers.netlify.com/learn/get-started-with-nuxt/nuxt-introduction
+
+##Monday, October 31, 2022 @ 09:50:45 PM
+
+Coming back to this project. Going through these articles.
+- https://vueschool.io/articles/vuejs-tutorials/hybrid-rendering-in-nuxt-js-3/
+- https://vueschool.io/articles/vuejs-tutorials/understanding-the-directory-structure-in-nuxt-3/
