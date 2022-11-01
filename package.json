@@ -7,10 +7,12 @@
         "preview": "nuxi preview"
     },
     "devDependencies": {
-        "@iconify/json": "^2.1.20",
+        "@iconify/json": "^2.1.131",
         "@nuxtjs/pwa": "^3.3.5",
-        "nuxt-windicss": "^2.2.8",
-        "nuxt3": "^3.0.0-27468803.23e7afb",
-        "unplugin-icons": "^0.14.1"
-    }
+        "nuxt-windicss": "^2.5.2",
+        "nuxt3": "^3.0.0-rc.13-27781436.1f6b3be",
+        "unplugin-icons": "^0.14.12",
+        "yarn-upgrade-all": "^0.7.1"
+    },
+    "dependencies": {}
 }
