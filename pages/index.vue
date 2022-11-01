@@ -4,7 +4,7 @@
             <Title>{{ route.meta.title }}</Title>
         </Head>
 
-        <h2 class="font-white">Home</h2>
+        <h2 class="font-white text-green-500">Home</h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi soluta necessitatibus laboriosam. Accusamus totam adipisci sapiente laudantium unde? Nesciunt earum nam debitis libero doloribus? Illum illo et id dignissimos omnis, a delectus quia, architecto tenetur fuga tempora, magnam suscipit. Mollitia molestias voluptates ad soluta aperiam minus dolor maiores ea quaerat.</p>
 
 

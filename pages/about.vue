@@ -11,7 +11,7 @@
             <div class="row-span-1 py-4 myIcons"><IconJamstack/> JAMstack</div>
             <div class="row-span-1 py-4 myIcons"><IconHTML/> HTML</div>
             <div class="row-span-1 py-4 myIcons"><IconCSS/> CSS</div>
-            <div class="row-span-1 py-4 myIcons"><IconWindiCSS/> WindiCSS</div>
+            <div class="row-span-1 py-4 myIcons"><IconTailwindCSS/> TailwindCSS</div>
             <div class="row-span-1 py-4 myIcons"><IconJavaScript/> JavaScript</div>
             <div class="row-span-1 py-4 myIcons"><IconInkscape/> Inkscape</div>
             <div class="row-span-1 py-4 myIcons"><IconFigma/> Figma</div>
