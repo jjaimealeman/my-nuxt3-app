@@ -24,10 +24,7 @@ a {
     @apply text-center font-medium text-white py-2 px-4 m-0 text-xl font-sans no-underline hover:text-sky-500;
 }
 a.router-link-active {
-    /* color: red; */
     text-decoration: none;
-    /* @apply text-sky border-0 border-b-4 border-sky-500 bg-sky-900; */
-    /* @apply text-sky border-0 bg-sky-900; */
-    @apply text-sky-500 translate-y-8 transform-gpu;
+    @apply text-sky-500;
 }
 </style>

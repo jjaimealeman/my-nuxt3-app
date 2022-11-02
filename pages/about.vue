@@ -3,6 +3,7 @@
         <Head>
             <Title>{{ route.meta.title }} </Title>
         </Head>
+
         <p>
             Modern day websites utilize a LOT of technologies to perform well.
         </p>

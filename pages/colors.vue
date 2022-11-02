@@ -3,7 +3,8 @@
         <Head>
             <Title>{{ route.meta.title }} </Title>
         </Head>
-            <div class="flex flex-col justify-center items-center text-center align-top" v-for="item in items" v-html="item.color"> </div>
+
+        <div class="flex flex-col justify-center items-center text-center align-top" v-for="item in items" v-html="item.color"> </div>
     </div>
 </template>
 
