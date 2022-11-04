@@ -1,7 +1,11 @@
 <template>
   <TheNav />
-  <div class="container mx-auto text-xl text-white antialiased md:text-2xl lg:text-3xl">
+  <div
+    class="container flex items-center justify-between mx-auto text-xl antialiased text-white md:text-2xl lg:text-3xl"
+  >
+    <NuxtLayout>
       <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
 
@@ -31,7 +35,10 @@ body {
   touch-action: auto;
 }
 body {
-  background-color: hsl(193, 100%, 7%);
+  /*
+background-color: hsl(193, 100%, 7%);
+*/
+  background-color: hsl(240, 15%, 11%);
 }
 .container {
   transition: ease all 0.5s;
