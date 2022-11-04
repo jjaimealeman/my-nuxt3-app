@@ -12,7 +12,14 @@ module.exports = {
     container: {
       center: true,
     },
-    extend: {},
+    extend: {
+      colors: {
+        'body': '#001c24'
+      },
+      fontFamily: {
+        'poppins': ["'Poppins'", 'sans-serif']
+      },
+    },
   },
   varients: {
     extend: {},
