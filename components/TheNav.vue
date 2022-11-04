@@ -1,11 +1,35 @@
 <template>
-    <nav class="fixed top-0 w-full text-center py-4 m-0 border-0 border-b-4 border-sky-600 opacity-90">
-        <ul class="list-none m-0 p-0">
-            <li class="inline m-0 p-0"><NuxtLink to="/"><span class="i-ic-sharp-home"></span> Home</NuxtLink></li>
-            <li class="inline m-0 p-0"><NuxtLink to="/about"><span class="i-ic-outline-article"></span> About</NuxtLink></li>
-            <li class="inline m-0 p-0"><NuxtLink to="/colors"><span class="i-ic-round-color-lens"></span> Colors</NuxtLink></li>
-        </ul>
-    </nav>
+    <!--
+        <nav class="fixed top-0 w-full py-4 m-0 text-center border-0 border-b-4 border-sky-600 opacity-90">
+            <ul class="p-0 m-0 list-none">
+                <li class="inline p-0 m-0"><NuxtLink to="/"><span class="i-ic-sharp-home"></span> Home</NuxtLink></li>
+                <li class="inline p-0 m-0"><NuxtLink to="/about"><span class="i-ic-outline-article"></span> About</NuxtLink></li>
+                <li class="inline p-0 m-0"><NuxtLink to="/colors"><span class="i-ic-round-color-lens"></span> Colors</NuxtLink></li>
+            </ul>
+        </nav>
+    -->
+
+    <header class="fixed top-0 w-full py-4 border-0 border-b-4 border-sky-600 opacity-90 bg-[#181820]">
+        <div class="container flex items-center justify-between px-8 mx-auto md:mx-14 lg:px-24">
+            <div class="text-2xl font-bold text-white">J.Jaime.Aleman</div>
+            <div class="items-center hidden space-x-12 md:flex">
+                <NuxtLink to="/"><span class="i-ic-sharp-home"></span> Home</NuxtLink>
+                <NuxtLink to="/about"><span class="i-ic-outline-article"></span> About</NuxtLink>
+                <NuxtLink to="/colors"><span class="i-ic-round-color-lens"></span> Colors</NuxtLink>
+                <nuxt-link to="/contact"><button class="px-6 py-2 font-bold rounded-md bg-sky-600">Contact Me</button></nuxt-link>
+            </div>
+        </div>
+        <div class="md:hidden">
+            <svg width="40" height="19" viewBox="0 0 40 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="20" width="20" height="5" fill="#D9D9D9"/>
+                <rect y="14" width="20" height="5" fill="#D9D9D9"/>
+                <rect y="7" width="40" height="5" fill="#D9D9D9"/>
+            </svg>
+        </div>
+    </header>
+
+
+
 </template>
 
 
