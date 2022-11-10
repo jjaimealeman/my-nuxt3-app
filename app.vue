@@ -1,12 +1,12 @@
 <template>
   <TheNav />
-  <div
+  <main
     class="container flex items-center justify-between mx-auto text-xl antialiased text-white md:text-2xl lg:text-3xl"
   >
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
-  </div>
+  </main>
 </template>
 
 <script>
