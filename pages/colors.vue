@@ -26,7 +26,7 @@ export default {
 <script setup>
 definePageMeta({
   title: "Colors Page",
-  layout: "custom",
+  // layout: "custom",
 });
 
 const route = useRoute();

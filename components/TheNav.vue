@@ -3,9 +3,10 @@
         <div class="container flex items-center justify-between px-8 mx-auto md:mx-14 lg:px-24">
             <div class="text-2xl font-bold text-white">J.Jaime.Aleman</div>
             <div class="items-center hidden space-x-12 md:flex">
-                <NuxtLink to="/"><span class="i-ic-sharp-home"></span> Home</NuxtLink>
-                <NuxtLink to="/about"><span class="i-ic-outline-article"></span> About</NuxtLink>
-                <NuxtLink to="/colors"><span class="i-ic-round-color-lens"></span> Colors</NuxtLink>
+                <NuxtLink to="/"> Home</NuxtLink>
+                <NuxtLink to="/about"> About</NuxtLink>
+                <NuxtLink to="/colors"> Colors</NuxtLink>
+                <NuxtLink to="/products"> Products</NuxtLink>
                 <nuxt-link to="/contact"><button>Contact Me</button></nuxt-link>
             </div>
         </div>
