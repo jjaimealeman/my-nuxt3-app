@@ -28,6 +28,7 @@
       <div class="myIcons"><Icon name="logos:vue" />VueJS</div>
       <div class="myIcons"><Icon name="logos:supabase-icon" />Supabase</div>
     </div>
+    <p class="data">{{ data }}</p>
   </div>
 </template>
 
@@ -52,6 +53,8 @@ definePageMeta({
 });
 const route = useRoute();
 console.log(route.meta.title);
+
+const { data } = await useFetch('/api/ninja?name=jammo')
 </script>
 
 <style>
