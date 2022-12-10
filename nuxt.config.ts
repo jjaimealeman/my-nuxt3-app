@@ -13,7 +13,7 @@ export default defineNuxtConfig({
     plugins: [
       Inspector({
         appendTo: "entry.mjs",
-        enabled: true,
+        enabled: false,
         toggleButtonVisibility: "always",
       })
     ]
