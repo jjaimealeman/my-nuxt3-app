@@ -7,7 +7,7 @@
                 <NuxtLink to="/about"> About</NuxtLink>
                 <NuxtLink to="/colors"> Colors</NuxtLink>
                 <NuxtLink to="/products"> Products</NuxtLink>
-                <nuxt-link to="/contact"><button>Contact Me</button></nuxt-link>
+                <NuxtLink to="/contact"><button>Contact Me</button></NuxtLink>
             </div>
         </div>
         <div class="md:hidden">
