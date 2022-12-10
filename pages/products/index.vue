@@ -11,16 +11,17 @@
 
 
 <script setup>
-    definePageMeta({
-        layout: 'default'
-    })
-    const { data: products } = await useFetch('https://fakestoreapi.com/products')
+definePageMeta({
+    title: "Products Page"
+    // layout: 'products'
+});
+const { data: products } = await useFetch('https://fakestoreapi.com/products')
 
 </script>
 
 
 <style>
-    body {
-        color: #333;
-    }
+body {
+    color: #333;
+}
 </style>
