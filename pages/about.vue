@@ -48,6 +48,7 @@ export default {
 <script setup>
 definePageMeta({
   title: "About Page",
+  layout: 'default'
 });
 const route = useRoute();
 console.log(route.meta.title);
