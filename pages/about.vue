@@ -54,7 +54,7 @@ definePageMeta({
 const route = useRoute();
 console.log(route.meta.title);
 
-const { data } = await useFetch('/api/ninja?name=jammo')
+const { data } = await useFetch('/api/currency/GBP')
 </script>
 
 <style>

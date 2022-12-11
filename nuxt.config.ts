@@ -7,8 +7,11 @@ export default defineNuxtConfig({
       postcssOptions: require('./postcss.config.js'),
     },
   },
-  modules: ['nuxt-icon'],
   css: ['~/assets/css/main.css'],
+  modules: ['nuxt-icon'],
+  runtimeConfig: {
+    currencyKey: process.env.CURRENCY_API_KEY
+  },
   vite: {
     plugins: [
       Inspector({
